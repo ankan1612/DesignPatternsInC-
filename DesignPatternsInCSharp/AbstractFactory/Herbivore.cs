@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsInCSharp
+namespace DesignPatternsInCSharp.AbstractFactory
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+    //This is the abstract product A
+    abstract class Herbivore
+    {}
 }

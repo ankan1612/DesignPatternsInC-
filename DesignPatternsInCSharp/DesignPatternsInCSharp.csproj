@@ -41,12 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AbstractFactory\HabitatFactory2.cs" />
+    <Compile Include="AbstractFactory\IHabitatFactory.cs" />
+    <Compile Include="AbstractFactory\Bison.cs" />
+    <Compile Include="AbstractFactory\Carnivore.cs" />
+    <Compile Include="AbstractFactory\HabitatFactory1.cs" />
+    <Compile Include="AbstractFactory\Herbivore.cs" />
+    <Compile Include="AbstractFactory\Jungle.cs" />
+    <Compile Include="AbstractFactory\Lion.cs" />
+    <Compile Include="AbstractFactory\MainClass.cs" />
+    <Compile Include="AbstractFactory\Wolf.cs" />
+    <Compile Include="AbstractFactory\Zebra.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
