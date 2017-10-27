@@ -135,6 +135,11 @@ App_Data/*.ldf
 #Properties
 Properties
 
+#APPCONFIG
+App.config
+
+#Solution
+*.sln
 
 #LightSwitch generated files
 GeneratedArtifacts/
