@@ -9,8 +9,8 @@ namespace DesignPatternsInCSharp.AbstractFactory
     // This is the consumer
     class Jungle
     {
-        private Herbivore herbivore;
-        private Carnivore carnivore;
+        private IHerbivore herbivore;
+        private ICarnivore carnivore;
 
         public Jungle(IHabitatFactory factory)
         {
@@ -20,7 +20,7 @@ namespace DesignPatternsInCSharp.AbstractFactory
 
         public void FoodChain()
         {
-            carnivore.Eat(herbivore);
+            carnivore.eat(herbivore);
         }
     }
 }

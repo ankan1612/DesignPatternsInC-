@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DesignPatternsInCSharp.AbstractFactory
 {
     //This is Product A2
-    class Zebra : Herbivore
+    class Zebra : IHerbivore
     {
     }
 }

@@ -44,14 +44,20 @@
     <Compile Include="AbstractFactory\HabitatFactory2.cs" />
     <Compile Include="AbstractFactory\IHabitatFactory.cs" />
     <Compile Include="AbstractFactory\Bison.cs" />
-    <Compile Include="AbstractFactory\Carnivore.cs" />
+    <Compile Include="AbstractFactory\ICarnivore.cs" />
     <Compile Include="AbstractFactory\HabitatFactory1.cs" />
-    <Compile Include="AbstractFactory\Herbivore.cs" />
+    <Compile Include="AbstractFactory\IHerbivore.cs" />
     <Compile Include="AbstractFactory\Jungle.cs" />
     <Compile Include="AbstractFactory\Lion.cs" />
     <Compile Include="AbstractFactory\MainClass.cs" />
     <Compile Include="AbstractFactory\Wolf.cs" />
     <Compile Include="AbstractFactory\Zebra.cs" />
+    <Compile Include="Factory\Circle.cs" />
+    <Compile Include="Factory\IShape.cs" />
+    <Compile Include="Factory\IShapeFactory.cs" />
+    <Compile Include="Factory\MainClass.cs" />
+    <Compile Include="Factory\ShapeFactory.cs" />
+    <Compile Include="Factory\Square.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

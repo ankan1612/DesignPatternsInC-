@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsInCSharp.AbstractFactory
+namespace DesignPatternsInCSharp.Factory
 {
-    //This is Product A1
-    class Bison : IHerbivore
+    // This is the abstract Product
+    interface IShape
     {
+        void draw();
     }
 }

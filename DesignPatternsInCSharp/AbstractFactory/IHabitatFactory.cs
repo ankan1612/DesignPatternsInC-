@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace DesignPatternsInCSharp.AbstractFactory
 {
     // This is abstract factory
-    abstract class IHabitatFactory
+    interface IHabitatFactory
     {
-        public abstract Herbivore CreateHerbivore();
-        public abstract Carnivore CreateCarnivore();
+        IHerbivore CreateHerbivore();
+        ICarnivore CreateCarnivore();
     }
 }

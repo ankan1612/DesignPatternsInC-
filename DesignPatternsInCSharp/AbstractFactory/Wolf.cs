@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsInCSharp.AbstractFactory
 {
-    class Wolf : Carnivore
+    class Wolf : ICarnivore
     {
-        public override void Eat(Herbivore h)
+        public void eat(IHerbivore h)
         {
             Console.WriteLine(this.GetType().Name + " eats " + h.GetType().Name);
         }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsInCSharp.AbstractFactory
 {
-    //This is the abstract product A
-    abstract class Herbivore
-    {}
+    //This is the abstract product B
+    interface ICarnivore
+    {
+        void eat(IHerbivore h);
+    }
 }
